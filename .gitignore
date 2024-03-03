@@ -1,3 +1,38 @@
+
+### Project specific
+config.yml
+
+### Project data
+data/
+
+### Ignore everything in this folder…
+local_gitignore/*
+### …except this file:
+!local_gitignore/.gitkeep 
+
+### Package management
+renv/library/
+renv/python/
+renv/staging/
+
+# Temporary files created by R notebooks
+*.html
+*.md
+
+# Markdown files to keep
+!README.md
+
+# Temporary files created by R markdown 
+*.utf8.md
+*.knit.md
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# R Environment Variables
+.Renviron
+
 # History files
 .Rhistory
 .Rapp.history
@@ -9,6 +44,12 @@
 # User-specific files
 .Ruserdata
 
+# RStudio files
+.Rproj.user
+.Rproj.user/
+
+###############
+
 # Example code in package build process
 *-Ex.R
 
@@ -18,26 +59,12 @@
 # Output files from R CMD check
 /*.Rcheck/
 
-# RStudio files
-.Rproj.user/
-
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
 
 # pkgdown site
 docs/
@@ -47,3 +74,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# R bookdown caching files
+/*_files/
+

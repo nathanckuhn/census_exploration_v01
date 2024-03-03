@@ -1,0 +1,44 @@
+---
+title: "02_exploration"
+author: "Nathan Kuhn"
+output: html_notebook
+---
+
+Purpose: Project-specific data investigation and exploratory analysis.
+
+Note: This R Notebook is optimized for interactively running code, not publishing.
+
+
+## --------------------------------  
+
+## PREPARATION 
+
+Notes on any manual steps needed, file preparation, etc.
+
+
+## SETUP & CREATE OBJECTS 
+
+```{r}
+if (!require('here')) install.packages('here')
+source(here::here('01_create_objects.R'), encoding = 'UTF-8')
+```
+
+
+## --------------------------------  
+
+## EXPLORATION 
+
+### --------------------------------  
+
+```{r name_of_chunk1, rows.print=40}
+print('Hello world!')
+```
+
+### --------------------------------  
+
+```{r name_of_chunk2, rows.print=40}
+print('Hello world!')
+```
+
+
+

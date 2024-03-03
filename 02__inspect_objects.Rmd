@@ -1,0 +1,49 @@
+---
+title: "02__inspect_objects"
+author: "Nathan Kuhn"
+output: html_notebook
+---
+
+Purpose: General inspection & testing of created objects before project-specific analysis.
+
+Note: This R Notebook is optimized for interactively running code, not publishing.
+
+
+## --------------------------------  
+
+## PREPARATION 
+
+Notes on any manual steps needed, file preparation, etc.
+
+
+## SETUP & CREATE OBJECTS 
+
+```{r}
+if (!require('here')) install.packages('here')
+source(here::here('01_create_objects.R'), encoding = 'UTF-8')
+```
+
+
+## INSPECT OBJECTS 
+
+### --------------------------------  
+
+```{r name_of_object1, rows.print=40}
+# object1
+```
+
+```{r name_of_object2, rows.print=40}
+# object2
+```
+
+### --------------------------------  
+
+```{r name_of_object3, rows.print=40}
+# object3
+```
+
+```{r name_of_object4, rows.print=40}
+# object4
+```
+
+

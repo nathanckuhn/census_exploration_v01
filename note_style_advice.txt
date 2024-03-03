@@ -1,0 +1,13 @@
+for paths:
+See "finances" repository for "get_" functions.
+or "path_" everything.
+
+
+
+Note: These files have been designed with features to create good RStudio file outlines in either .R or Notebooks.
+
+
+
+
+
+
